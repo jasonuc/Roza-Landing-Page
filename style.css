@@ -57,3 +57,56 @@ nav li {
     background-color: black;
     border: 3px solid white;
 } */
+
+#footer h3 {
+    text-align: center;
+}
+
+form input, form textarea {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+form #email {
+    height: 30px;
+    width: 478px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+form #message {
+    height: 300px;
+    width: 478px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+form #submit-button {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    width: 100px;
+    margin: auto;
+    margin-top: 25px;
+    display: block;
+}
+
+footer p {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top:  20px;
+    margin-bottom: 0;
+}
