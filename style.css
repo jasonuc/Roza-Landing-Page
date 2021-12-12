@@ -30,10 +30,28 @@ nav li {
     text-align: center;
 }
 
+@media only screen and (max-width: 842px) {
+
+    .table-image-cell {
+        display: none;
+    }
+
+    .text-section {
+        width: 100%;
+        height: 350px;
+    }
+
+    .rows {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
 .image-cell {
     display: flex;
     width: 100%;
     height: auto;
+    flex-shrink: 2;
 }
 
 .side-image {
@@ -43,7 +61,8 @@ nav li {
     margin: 10px auto;
     justify-content: center;
     align-items: center;
-    flex-shrink: 2;
+    /* flex-shrink: 10; */
+    /* flex-shrink: 2; */
 }
 
 #banner {
@@ -69,7 +88,7 @@ form input, form textarea {
     margin-bottom: 10px;
 }
 
-form #email {
+form #user-name, form #email {
     height: 30px;
     width: 478px;
     border-radius: 10px;
@@ -109,5 +128,10 @@ footer p {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top:  20px;
+    margin-bottom: 0;
+}
+
+
+#footer-row {
     margin-bottom: 0;
 }
