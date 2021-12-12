@@ -68,3 +68,24 @@ td {
 .item-textarea h3 {
     text-align: center;
 }
+
+#footer h3 {
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top:  20px;
+    margin-bottom: 0;
+}
+
+
+#footer-row {
+    margin-bottom: 0;
+}
