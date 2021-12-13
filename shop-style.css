@@ -132,7 +132,6 @@ footer p {
     margin-bottom: 0;
 }
 
-/* @media only screen and (max-width: 916px) and (min-width: 610px){ */
 @media only screen and (max-width: 916px) {
     .cell-two {
         display: none;
@@ -178,4 +177,4 @@ footer p {
         border-radius: 30px;
     }
 
-} 
+}
